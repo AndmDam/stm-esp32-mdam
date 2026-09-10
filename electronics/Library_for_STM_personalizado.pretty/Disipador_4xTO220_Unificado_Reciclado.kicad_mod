@@ -1,0 +1,161 @@
+(footprint "Disipador_4xTO220_Unificado_Reciclado"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Disipador de calor reciclado, para 4 TO220")
+	(property "Reference" "REF**"
+		(at 39.5 1.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "1720427c-55c3-49a7-be24-e36946ec7dcf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Sin título"
+		(at 39.5 3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "47b66181-1170-4d5f-8aa0-27cf50b4b730")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "951185e5-9878-4663-bd63-dfbc61dd7d94")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1aae92d8-755f-4664-984d-0fb03ba61198")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -5 -5)
+		(end 83 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "38939cc9-649b-4dce-a3f5-07c1a1f0798e")
+	)
+	(fp_rect
+		(start 9 -5.75)
+		(end 12 -0.125)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "68aa32dc-bfd5-479e-86ee-c1dfccf4c605")
+	)
+	(fp_rect
+		(start 34 -5.75)
+		(end 37 -0.125)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "72d8c0f9-9733-4b98-9f8b-d5daa581ae2a")
+	)
+	(fp_rect
+		(start 61 -5.75)
+		(end 64 -0.125)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a5cde949-fa03-4db4-a2af-8882691879d6")
+	)
+	(fp_rect
+		(start 76 -5.875)
+		(end 79 0)
+		(stroke
+			(width 0.1)
+			(type dash)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "a22eadf4-c14c-4ed1-81d2-a512c16627f0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 39.5 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3897b5dd-a4d2-4938-8ecd-922892b35394")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 -0.5)
+		(size 4 2.54)
+		(drill oval 1.5 0.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "d40c3444-c359-48ad-8b39-d04aa332995e")
+	)
+	(pad "2" thru_hole oval
+		(at 45.5 0 180)
+		(size 2.54 4)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "07e4087a-97ee-40b0-8033-454c141560b3")
+	)
+	(pad "3" thru_hole oval
+		(at 45.5 -8.25 180)
+		(size 2.54 4)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ae2cfc92-1960-4819-81c2-ee6ae978a25d")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Library_for_STM_personalizado.pretty/heatsink-power_supply.step"
+		(offset
+			(xyz 38.25 0.75 26.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

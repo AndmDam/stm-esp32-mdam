@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Library_for_STM_personalizado")(type "KiCad")(uri "${KIPRJMOD}/Library_for_STM_personalizado.pretty")(options "")(descr ""))
+)
